@@ -1,0 +1,14 @@
+header {
+  background-color: yellow;
+  text-align: right;
+}
+
+nav ul {
+  display: block;
+}
+
+nav {
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
