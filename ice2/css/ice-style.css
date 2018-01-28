@@ -1,7 +1,17 @@
-header {
+#wrap{
+  margin: auto;
+  background-color: green;
+  width: 725px;
+  height: 470px;
+}
+
+
+header h1 {
   background-color: yellow;
   text-align: right;
+  font-size: 100px;
 }
+
 
 nav ul {
   display: block;
