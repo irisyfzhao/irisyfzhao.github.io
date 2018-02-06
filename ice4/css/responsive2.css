@@ -1,0 +1,7 @@
+@media only screen and (min-width: 650px) {
+
+  .top-nav ul li, .menu-icon {
+    display: inline-block;
+    border-top: 1px solid red;
+  }
+}
