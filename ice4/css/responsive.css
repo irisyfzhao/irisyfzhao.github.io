@@ -1,0 +1,59 @@
+@media only screen and (min-width: 650px) {
+  .top-nav ul {
+    text-align: center;
+    border-top: 1px solid red;
+    width: 70vw;
+    margin: auto;
+  }
+  .top-nav ul li, .menu-icon {
+    display: inline-block;
+    border: 0;
+    margin: 0;
+    width: 24%;
+  }
+  .two-grids{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    width: 98%;
+    padding-left: 1%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .logo {
+    display: inline-block;
+    float: left;
+  }
+  .logo img {
+    width: 60px;
+    height: 60px;
+    padding-top: 5px;
+  }
+  .top-nav ul {
+    border: 0;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 60vw;
+    float: right;
+    border: 0;
+    vertical-align: center;
+  }
+  .top-nav ul li a {
+    vertical-align: middle;
+    line-height: 60px;
+  }
+  .photo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 98%;
+  }
+  .two-grids{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    width: 98%;
+    padding-left: 1%;
+  }
+}
