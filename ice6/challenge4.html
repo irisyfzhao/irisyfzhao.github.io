@@ -8,7 +8,7 @@
 		.errormsg {
 			/*font: Use a cool Google font*/
 			font-family: times;
-			font-size: 18px;
+			font-size: 14px;
 			color: red;
 			display: none;
 		}
@@ -19,20 +19,24 @@
 			// Write a function that displays the appropriate error message(s) if a field is left blank.  Make sure the form action is not performed if either field is blank.
 			var x = document.getElementById('fullname').value;
 			var y = document.getElementById('streetaddr').value;
+			var a = document.getElementById('nameerrormsg');
+			var b = document.getElementById('addrerrormsg');
 			if (x != '' && y != '') {
 				return true;
-			}
-			else {
+			} else {
 				if (x == '') {
-					var a = document.getElementById('nameerrormsg');
 					a.style.display = 'block';
+				} else {
+					a.style.display = 'none';
 				}
 				if (y == '') {
-					var b = document.getElementById('addrerrormsg');
-					b.style.disply = 'block';
+					b.style.display = 'block';
+				} else {
+					b.style.display = 'none';
 				}
 				return false;
 			}
+
 		}
 	</script>
 </head>
