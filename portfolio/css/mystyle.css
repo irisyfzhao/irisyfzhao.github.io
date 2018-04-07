@@ -1,0 +1,116 @@
+header.masthead {
+  background-image: url("../img/stock.jpg");
+}
+
+#mainNav .navbar-brand {
+  color: #4a818b;
+  font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+}
+
+.btn-primary {
+  background-color: #6D8FB6;
+  border-color: #6D8FB6;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(74, 129, 139, 0.5);
+}
+
+.text-primary {
+  color: #4a818b;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #4a818b;
+  border-color: #4a818b;
+  color: white;
+}
+
+section#contact {
+  background-color: rgba(255, 255, 255, 0.125);
+  background-image: url("../img/avatar.jpg");
+  background-size: cover;
+}
+
+footer {
+  background-color: #e2d4de;
+  color: #4a818b;
+}
+
+::selection {
+  background: #4a818b;
+  text-shadow: none;
+}
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #4a818b;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+  color: white;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #4a818b;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(74, 129, 139, 0.5);
+}
+
+section#contact .form-control:focus {
+  border-color: #4a818b;
+  box-shadow: none;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  background: rgba(74, 129, 139, 0.9);
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  top: 40%;
+}
+
+
+@media (min-width: 768px) {
+  section {
+    padding: 150px 0;
+  }
+}
+
+.btn {
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+::selection {
+  background: #4a818b;
+  text-shadow: none;
+}
+
+#mainNav {
+  background-color: #e2d4de;
+}
+
+#mainNav .navbar-toggler {
+  background-color: #4a818b;
+}
+
+@media (min-width: 992px) {
+  #mainNav.navbar-shrink {
+    background-color: #e2d4de;
+  }
+}
