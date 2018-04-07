@@ -131,12 +131,6 @@ header.masthead .intro-text .intro-heading {
 }
 
 @media (min-width: 768px) {
-  section {
-    padding: 150px 0;
-  }
-}
-
-@media (min-width: 768px) {
   header.masthead .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
@@ -484,9 +478,6 @@ header.masthead .intro-text .intro-heading {
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em;
-  }
-  #mainNav.navbar-shrink {
-    background-color: #e2d4de;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
