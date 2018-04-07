@@ -32,6 +32,13 @@ section#contact {
   background-size: cover;
 }
 
+section#portfolio {
+  background-image: url("../img/bgimg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 footer {
   background-color: #e2d4de;
   color: #4a818b;
