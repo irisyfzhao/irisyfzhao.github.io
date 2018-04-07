@@ -91,7 +91,6 @@ section#contact .form-control:focus {
   top: 40%;
 }
 
-
 @media (min-width: 768px) {
   section {
     padding: 150px 0;
@@ -117,7 +116,7 @@ section#contact .form-control:focus {
 }
 
 @media (min-width: 992px) {
-  #mainNav.navbar-shrink {
-    background-color: #e2d4de;
+  section#about {
+    background-color: #FFFBF0;
   }
 }
