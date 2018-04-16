@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Web Design Exam</title>
+
+  <link href="css/style.css" rel="stylesheet">
+
+  <script type="text/javascript">
+    function disappear(x) {
+      x.style.display = "none";
+      var y = document.getElementById('second');
+      y.style.margin = auto;
+    }
+
+    function reappear(x) {
+      x.style.display = "";
+    }
+  </script>
+
+</head>
+
+<body>
+  <h1>Yifan Zhao</h1>
+
+  <div class='two-img'>
+
+    <img id='first' src="images/examPic.jpg" alt="exampic">
+
+    <img id='second' src="images/UMSI-logo.jpg" alt="UMSI-logo">
+
+  </div>
+  <div>
+    <button id="button" onclick="disappear(document.getElementById('first'));">Hide Image</button>
+    <button id="button" onclick="reappear(document.getElementById('first'));">Show Image</button>
+  </div>
+
+</body>
+
+</html>

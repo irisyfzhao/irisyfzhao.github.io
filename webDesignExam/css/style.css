@@ -1,0 +1,17 @@
+img {
+  border-style: solid;
+  border-width: 5px;
+  border-color: blue;
+  padding: 5%;
+  box-sizing: border-box;
+  width: 50%;
+  height: auto;
+}
+
+.two-img {
+  display: flex;
+}
+
+html {
+  background: url(../images/sun-pattern.png);
+}
